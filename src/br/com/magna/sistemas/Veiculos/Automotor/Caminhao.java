@@ -1,5 +1,7 @@
 package br.com.magna.sistemas.Veiculos.Automotor;
 
+import java.util.Objects;
+
 import br.com.magna.sistemas.Veiculos.Interfaces.Carga;
 import br.com.magna.sistemas.Veiculos.Modelo.Automotor;
 
@@ -17,6 +19,11 @@ public class Caminhao extends Automotor implements Carga {
 	      return false;
 	    }
 	  }
+	
+	@Override
+	public int hashCode() {
+		return Objects.hash(Placa);
+	}
 
 	public Integer capacidadeCarga = 7500;
 	

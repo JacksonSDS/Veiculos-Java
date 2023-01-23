@@ -1,5 +1,7 @@
 package br.com.magna.sistemas.Veiculos.Ferroviario;
 
+import java.util.Objects;
+
 import br.com.magna.sistemas.Veiculos.Modelo.Ferroviario;
 
 public class Trem extends Ferroviario {
@@ -16,6 +18,11 @@ public class Trem extends Ferroviario {
 	      return false;
 	    }
 	  }
+	
+	@Override
+	public int hashCode() {
+		return Objects.hash(Series);
+	}
 	
 
 }

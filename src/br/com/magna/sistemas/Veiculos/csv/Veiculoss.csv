@@ -1,0 +1,13 @@
+Cor,Assento,Preço,Modelo,Ano ,Rodas,Peso,Tipo de motor,Potencia,Velocidade maxima,Qtd animal,Tipo animal,Força Fisica,vagoes,Series,Capacidade total,Placa,Hodometro,Categoria,Bateria,
+Cinza,2000,39 milhoes,serie 7000,2010,60,179 toneladas,Diesel,2200 kw,90 km/h,NA,NA,NA,12,8500,1100,NA,NA,C,NA,Trem
+Cinza,2000,50 milhoes,frota,2013,60,80 toneladas,Eletrico,4560 cavalos,80 km/h,NA,NA,NA,6,2070,500,NA,NA,B,NA,Metro
+Vermelho,50,1 milhao,Millennium IV,2016,10,26 toneladas,Diesel,256 kw,90 km/h,NA,NA,NA,NA,NA,80,BRS1234,true ,D,NA,Onibus
+Azul,2,15 mil,Street,2015,2,145 quilos,Monocilíndrico,300 cavalos,400 km/h,NA,NA,NA,NA,NA,5,123BRSL,true ,A,NA,Moto
+Preto,3,700 mil,Scania,2012,12,15 toneladas,Diesel,450 cavalos,85 km/m,NA,NA,NA,NA,NA,5,BRS2K20,true ,C,NA,Caminhao
+Cinza ,5,75 mil,SUV,2014,4,3 toneladas,Diesel,200 cavalos,110 km/h,NA,NA,NA,NA,NA,7,BRS3K20,true ,B,NA,Caminhonete
+Laranja,4,27 mil,Sedan,2017,4,1000 kg,em linha,150 cavalos,200km/h,NA,NA,NA,NA,NA,7,BRS5678,true ,B,NA,Carro
+Branca,10,135 mil,Sprinter,2018,4,4000 kg,em V,1000 cavalos,90km/h,NA,NA,NA,NA,NA,14,BRS2233,true ,D,NA,Van
+Amarelo,40,70 mil,Bonde,2012,8,7000 kg,Eletrico,75 kw,50 km/h,NA,NA,NA,NA,NA,45,NA,NA,AAC,true ,Bonde
+Branca,1,1000 reais,Urbano,2019,2,20 kg,NA,NA,NA,NA,NA,true ,NA,NA,2,NA,NA,AAC,NA,Bicicleta
+Marrom,2,1000 reais,Madeira ,2023,2,300 kg,NA,NA,NA,2,Cavalos,NA,NA,NA,3,NA,NA,NA,NA,Carroça
+Marrom,2,1000 reais,Madeira ,2023,2,410 kg,NA,NA,NA,2,Jegues,NA,NA,NA,3,NA,NA,NA,NA,Charrete

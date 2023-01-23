@@ -1,5 +1,7 @@
 package br.com.magna.sistemas.Veiculos.Automotor;
 
+import java.util.Objects;
+
 import br.com.magna.sistemas.Veiculos.Interfaces.Passageiro;
 import br.com.magna.sistemas.Veiculos.Modelo.Automotor;
 
@@ -17,6 +19,11 @@ public class Onibus extends Automotor implements Passageiro {
 	      return false;
 	    }
 	  }
+	
+	@Override
+	public int hashCode() {
+		return Objects.hash(Placa);
+	}
 		
 		public Integer MostrarCapacidadeDePassageiro = 75;
 		

@@ -3,7 +3,7 @@ package br.com.magna.sistemas.Veiculos.Modelo;
 public abstract class Automotor extends Motorizados {
 	
 	private Integer hodometro;
-	private String Placa;
+	protected String Placa;
 	private String Categoria;
 	
 	public Integer getHodometro() {

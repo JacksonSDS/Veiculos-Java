@@ -2,7 +2,7 @@ package br.com.magna.sistemas.Veiculos.Modelo;
 
 public abstract class TracaoAnimal extends Veiculos {
 
-	private Integer QuantidadeAnimal;
+	protected Integer QuantidadeAnimal;
 	private String TipoAnimal;
 
 	public Integer getQuantidadeAnimal() {
@@ -28,12 +28,5 @@ public abstract class TracaoAnimal extends Veiculos {
 	public String guiar() {
 		return "Você esta guiando seu veiculo";
 	}
-
-	@Override
-	public String toString() {
-		return "Tem: " + this.QuantidadeAnimal + " Guiando esse veiculo " + ", Esse veiculo esta sendo puxado por: "
-				+ this.TipoAnimal;
-	}
-	
 	
 }

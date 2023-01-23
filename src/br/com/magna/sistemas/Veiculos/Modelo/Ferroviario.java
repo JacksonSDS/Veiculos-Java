@@ -2,7 +2,7 @@ package br.com.magna.sistemas.Veiculos.Modelo;
 
 public abstract class Ferroviario extends Motorizados {
 	private Integer Vagoes;
-	private Integer Series;
+	protected Integer Series;
 	private Integer CapacidadeTotal;
 
 	public Integer getVagoes() {

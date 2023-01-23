@@ -1,5 +1,7 @@
 package br.com.magna.sistemas.Veiculos.TracaoAnimal;
 
+import java.util.Objects;
+
 import br.com.magna.sistemas.Veiculos.Modelo.TracaoAnimal;
 
 public class Charrete extends TracaoAnimal {
@@ -17,5 +19,10 @@ public class Charrete extends TracaoAnimal {
 	      return false;
 	    }
 	  }
+	
+	@Override
+	public int hashCode() {
+		return Objects.hash(QuantidadeAnimal);
+	}
 	
 }
