@@ -21,8 +21,9 @@ public class veiculosInput {
 
 		InputStream ism = new FileInputStream(
 				"C:\\Users\\Jackson\\eclipse-workspace\\Veiculos\\src\\br\\com\\magna\\sistemas\\Veiculos\\csv\\Veiculoss.csv");
-		Reader rea = new InputStreamReader(ism, "UTF-8");
-		BufferedReader bfr = new BufferedReader(rea);
+//		Reader rea = new InputStreamReader(ism, "UTF-8");
+//		BufferedReader bfr = new BufferedReader(rea);
+		BufferedReader bfr = new BufferedReader(new InputStreamReader(ism, "UTF-8"));
 
 		OutputStream fos = new FileOutputStream(
 				"C:\\Users\\Jackson\\eclipse-workspace\\Veiculos\\src\\br\\com\\magna\\sistemas\\Veiculos\\csv\\Veiculos.txt");
