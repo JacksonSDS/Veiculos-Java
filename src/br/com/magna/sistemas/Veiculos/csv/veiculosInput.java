@@ -41,13 +41,5 @@ public class veiculosInput {
 		bfr.close();
 		bfw.close();
 		
-//		BufferedReader bfr = new BufferedReader(new InputStreamReader(new FileInputStream(
-//				"C:\\Users\\Jackson\\eclipse-workspace\\Veiculos\\src\\br\\com\\magna\\sistemas\\Veiculos\\csv\\Veiculoss.csv"), "UTF-8"));
-//		String linha = bfr.readLine();
-		
-//		while (linha != null) {
-//			String[] cols = linha.split(",");
-//			linha = bfr.readLine();
-//			veiculos = cols[0];
 		}
 	}
