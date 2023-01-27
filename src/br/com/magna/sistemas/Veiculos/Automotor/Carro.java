@@ -21,8 +21,7 @@ public class Carro extends Automotor implements Passageiro, Carga {
 	    }
 	  }
 	
-	@Override
-	public int hashCode() {
+	public int hashCode(Carro carro) {
 		return Objects.hash(Placa);
 	}
 

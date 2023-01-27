@@ -20,8 +20,7 @@ public class Moto extends Automotor implements Passageiro {
 	    }
 	  }
 	
-	@Override
-	public int hashCode() {
+	public int hashCode(Automotor moto) {
 		return Objects.hash(Placa);
 	}
 	

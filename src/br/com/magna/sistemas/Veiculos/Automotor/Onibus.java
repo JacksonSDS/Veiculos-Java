@@ -20,8 +20,7 @@ public class Onibus extends Automotor implements Passageiro {
 	    }
 	  }
 	
-	@Override
-	public int hashCode() {
+	public int hashCode(Automotor onibus) {
 		return Objects.hash(Placa);
 	}
 		

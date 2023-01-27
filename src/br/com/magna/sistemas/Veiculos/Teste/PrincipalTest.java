@@ -35,6 +35,7 @@ public class PrincipalTest {
 		Carro car1 = new Carro();
 		Carro car2 = new Carro();
 		System.out.println(car1.equals(car2));
+		System.out.println(car1.hashCode(car2));
 		
 		Assert.assertEquals(false, false);
 	
@@ -45,6 +46,7 @@ public class PrincipalTest {
 		Caminhonete cme1 = new Caminhonete();
 		Caminhonete cme2 = new Caminhonete();
 		System.out.println(cme1.equals(cme2));
+		System.out.println(cme1.hashCode(cme2));
 		
 		Assert.assertEquals(false, false);
 	
@@ -55,6 +57,7 @@ public class PrincipalTest {
 		Caminhao cam1 = new Caminhao();
 		Caminhao cam2 = new Caminhao();
 		System.out.println(cam1.equals(cam2));
+		System.out.println(cam1.hashCode(cam2));
 		
 		Assert.assertEquals(false, false);
 	
@@ -65,6 +68,7 @@ public class PrincipalTest {
 		Moto mt1 = new Moto();
 		Moto mt2 = new Moto();
 		System.out.println(mt1.equals(mt2));
+		System.out.println(mt1.hashCode(mt2));
 		
 		Assert.assertEquals(false, false);
 	
@@ -75,6 +79,7 @@ public class PrincipalTest {
 		Onibus Oni1 = new Onibus();
 		Onibus Oni2 = new Onibus();
 		System.out.println(Oni1.equals(Oni2));
+		System.out.println(Oni1.hashCode(Oni2));
 		
 		Assert.assertEquals(false, false);
 	
@@ -85,6 +90,7 @@ public class PrincipalTest {
 		Van V1 = new Van();
 		Van V2 = new Van();
 		System.out.println(V1.equals(V2));
+		System.out.println(V1.hashCode(V2));
 		
 		Assert.assertEquals(false, false);
 	
@@ -95,6 +101,7 @@ public class PrincipalTest {
 		Bonde Bon1 = new Bonde();
 		Bonde Bon2 = new Bonde();
 		System.out.println(Bon1.equals(Bon2));
+		System.out.println(Bon1.hashCode(Bon2));
 		
 		Assert.assertEquals(false, false);
 	
@@ -105,6 +112,7 @@ public class PrincipalTest {
 		Metro Met1 = new Metro();
 		Metro Met2 = new Metro();
 		System.out.println(Met1.equals(Met2));
+		System.out.println(Met1.hashCode(Met2));
 		
 		Assert.assertEquals(false, false);
 	
@@ -115,6 +123,7 @@ public class PrincipalTest {
 		Trem Trm1 = new Trem();
 		Trem Trm2 = new Trem();
 		System.out.println(Trm1.equals(Trm2));
+		System.out.println(Trm1.hashCode(Trm2));
 		
 		Assert.assertEquals(false, false);
 	
@@ -125,6 +134,7 @@ public class PrincipalTest {
 		Carroca Crr1 = new Carroca();
 		Carroca Crr2 = new Carroca();
 		System.out.println(Crr1.equals(Crr2));
+		System.out.println(Crr1.hashCode(Crr2));
 		
 		Assert.assertEquals(false, false);
 	
@@ -135,6 +145,7 @@ public class PrincipalTest {
 		Charrete Cha1 = new Charrete();
 		Charrete Cha2 = new Charrete();
 		System.out.println(Cha1.equals(Cha2));
+		System.out.println(Cha1.hashCode(Cha2));
 		
 		Assert.assertEquals(false, false);
 	

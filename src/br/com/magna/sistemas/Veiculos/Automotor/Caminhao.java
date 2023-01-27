@@ -20,8 +20,7 @@ public class Caminhao extends Automotor implements Carga {
 	    }
 	  }
 	
-	@Override
-	public int hashCode() {
+	public int hashCode(Caminhao caminhao) {
 		return Objects.hash(Placa);
 	}
 

@@ -21,8 +21,7 @@ public class Bonde extends Eletrico {
 	    }
 	  }	 
 	
-	@Override
-	public int hashCode() {
+	public int hashCode(Eletrico bonde) {
 		return Objects.hash(Bateria);
 	}
 

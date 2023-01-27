@@ -20,8 +20,7 @@ public class Charrete extends TracaoAnimal {
 	    }
 	  }
 	
-	@Override
-	public int hashCode() {
+	public int hashCode(TracaoAnimal charrete) {
 		return Objects.hash(QuantidadeAnimal);
 	}
 	

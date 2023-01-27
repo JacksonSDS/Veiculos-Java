@@ -19,8 +19,7 @@ public class Metro extends Ferroviario {
 	    }
 	  }
 	
-	@Override
-	public int hashCode() {
+	public int hashCode(Ferroviario metro) {
 		return Objects.hash(Series);
 	}
 	

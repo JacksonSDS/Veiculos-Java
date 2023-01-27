@@ -21,8 +21,7 @@ public class Van extends Automotor implements Passageiro, Carga {
 	    }
 	  }
 	
-	@Override
-	public int hashCode() {
+	public int hashCode(Automotor van) {
 		return Objects.hash(Placa);
 	}
 	

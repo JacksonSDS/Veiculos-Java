@@ -19,8 +19,7 @@ public class Trem extends Ferroviario {
 	    }
 	  }
 	
-	@Override
-	public int hashCode() {
+	public int hashCode(Ferroviario trem) {
 		return Objects.hash(Series);
 	}
 	
