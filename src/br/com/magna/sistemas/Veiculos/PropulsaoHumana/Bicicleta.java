@@ -20,8 +20,7 @@ public class Bicicleta extends PropulsaoHumana {
 		    }
 		  }
 	
-	@Override
-	public int hashCode() {
+	public int hashCode(PropulsaoHumana bicicleta) {
 		return Objects.hash(ForcaFisica);
 	}		
 	

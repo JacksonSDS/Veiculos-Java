@@ -3,15 +3,12 @@ package br.com.magna.sistemas.Veiculos.csv;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
-import java.io.Reader;
-import java.io.UnsupportedEncodingException;
 import java.io.Writer;
 
 public class veiculosInput {
@@ -20,7 +17,7 @@ public class veiculosInput {
 	public static void main(String[] args) throws IOException {
 
 		InputStream ism = new FileInputStream(
-				"C:\\Users\\Jackson\\eclipse-workspace\\Veiculos\\src\\br\\com\\magna\\sistemas\\Veiculos\\csv\\Veiculoss.csv");
+				"C:\\Users\\Jackson\\eclipse-workspace\\Veiculos\\src\\br\\com\\magna\\sistemas\\Veiculos\\csv\\Veiculos.csv");
 //		Reader rea = new InputStreamReader(ism, "UTF-8");
 //		BufferedReader bfr = new BufferedReader(rea);
 		BufferedReader bfr = new BufferedReader(new InputStreamReader(ism, "UTF-8"));

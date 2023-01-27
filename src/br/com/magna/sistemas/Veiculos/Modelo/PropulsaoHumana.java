@@ -1,7 +1,5 @@
 package br.com.magna.sistemas.Veiculos.Modelo;
 
-import java.util.Objects;
-
 public abstract class PropulsaoHumana extends Veiculos {
 	
 	protected Integer ForcaFisica;
